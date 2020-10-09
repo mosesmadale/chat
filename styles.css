@@ -1,0 +1,33 @@
+* {
+    padding: 10px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#send-container {
+    position: fixed;
+    top: 85vh;
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+#message-input {
+    outline: none;
+    font-size: 2.0rem;
+    text-indent: 0.5em;
+}
+
+#send-button {
+    background-color: black;
+    color: cyan;
+    border: none;
+    font-size: 2.0rem;
+}
+
+#send-button:focus {
+    outline: none;
+}
